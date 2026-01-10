@@ -1,0 +1,7 @@
+node_modules/
+.env
+twitter-session.json
+tasks.json
+follow-log.json
+.DS_Store
+*.log

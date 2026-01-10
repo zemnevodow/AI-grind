@@ -1,0 +1,20 @@
+{
+  "templates": [
+    "gm!",
+    "gm gm!",
+    "good morning!",
+    "GM frens!",
+    "have a great day!"
+  ],
+  "contextual": {
+    "gm": [
+      "gm",
+      "morning",
+      "gm gm",
+      "GM",
+      "gmorning",
+      "good morning!",
+      "gm to you too!"
+    ]
+  }
+}

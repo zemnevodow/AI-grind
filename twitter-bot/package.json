@@ -1,0 +1,22 @@
+{
+  "name": "twitter-bot",
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "login": "node src/save-session.js",
+    "start": "node src/index.js",
+    "start:visible": "HEADLESS=false node src/index.js",
+    "test:stealth": "node src/test-stealth.js",
+    "queue:add": "node src/queue/add-task.js",
+    "queue:run": "node src/queue/task-runner.js",
+    "queue:status": "node src/queue/add-task.js status",
+    "scheduler": "node src/scheduler.js",
+    "scheduler:likes": "node src/scheduler.js run likes",
+    "scheduler:queue": "node src/scheduler.js run queue"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3",
+    "playwright": "^1.40.0"
+  }
+}

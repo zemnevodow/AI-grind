@@ -1,0 +1,14 @@
+node_modules/
+.env
+*.log
+
+# Debug screenshots
+debug-*.png
+stealth-test-result.png
+
+# Session (sensitive!)
+twitter-session.json
+
+# Task queue and logs
+tasks.json
+follow-log.json
