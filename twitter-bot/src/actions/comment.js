@@ -18,10 +18,10 @@ export function loadCommentTemplates(filePath = 'comments.json') {
   if (!existsSync(filePath)) {
     console.log('Файл шаблонов не найден, используем дефолтные');
     return [
-      'gm!',
-      'gm gm!',
-      'good morning!',
-      'have a great day!'
+      'hey, let\'s connect',
+      'sup fam, lets follow back',
+      'let\'s grow together',
+      'yo lets connect!'
     ];
   }
 
@@ -30,7 +30,7 @@ export function loadCommentTemplates(filePath = 'comments.json') {
     return data.templates || data;
   } catch (e) {
     console.error('Ошибка загрузки шаблонов:', e.message);
-    return ['gm!'];
+    return ['hey, let\'s connect'];
   }
 }
 

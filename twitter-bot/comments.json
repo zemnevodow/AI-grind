@@ -1,20 +1,29 @@
 {
   "templates": [
-    "gm!",
-    "gm gm!",
-    "good morning!",
-    "GM frens!",
-    "have a great day!"
+    "hey, let's connect",
+    "sup fam, lets follow back",
+    "hey! let's connect 🤝",
+    "yo let's network",
+    "let's grow together",
+    "follow for follow? 👀",
+    "let's connect fam",
+    "hey drop a follow back",
+    "let's build together",
+    "networking vibes ✨",
+    "yo lets connect!",
+    "sup! follow back?",
+    "hey fam, lets link up",
+    "let's support each other"
   ],
   "contextual": {
-    "gm": [
-      "gm",
-      "morning",
-      "gm gm",
-      "GM",
-      "gmorning",
-      "good morning!",
-      "gm to you too!"
+    "networking": [
+      "let's connect",
+      "follow back?",
+      "lets network",
+      "link up!",
+      "lets grow together",
+      "sup fam",
+      "hey! follow back"
     ]
   }
 }
